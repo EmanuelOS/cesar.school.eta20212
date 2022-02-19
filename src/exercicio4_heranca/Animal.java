@@ -1,6 +1,6 @@
 package exercicio4_heranca;
 
-public class Animal {
+abstract class Animal {
 
 	private String corPelo;
 	private double peso;

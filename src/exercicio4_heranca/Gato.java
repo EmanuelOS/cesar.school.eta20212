@@ -40,4 +40,12 @@ public class Gato extends Animal {
 		System.out.println("Ron, ron...");
 	}
 
+	public void caminhar() {
+		System.out.println("Gato caminhando...!");
+	}
+
+	public void correr() {
+		System.out.println("Gato correndo...!");
+	}
+
 }

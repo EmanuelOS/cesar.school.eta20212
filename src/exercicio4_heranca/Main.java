@@ -1,14 +1,5 @@
 package exercicio4_heranca;
 
-//import javax.swing.JOptionPane;
-
-/*
- * Revisão de Programação
- * Orlewilson Maia
- * 05/02/2022
- * Exemplos de Objetos instanciados da Classe Cachorro
- * 
- * */
 public class Main {
 
 	public static void main(String[] args) {
@@ -32,7 +23,7 @@ public class Main {
 		System.out.printf("Peso: %.2f\n", toto.getPeso());
 		System.out.println("Raça: " + toto.getRaca());
 		System.out.println("Cor do Pelo: " + toto.getCorPelo());
-		
+
 		// chamando os métodos
 		toto.caminhar();
 		toto.correr();
@@ -50,11 +41,11 @@ public class Main {
 		System.out.println("Raça: " + toto2.getRaca());
 		System.out.println("Cor do Pelo: " + toto2.getCorPelo());
 		System.out.println("#### Classe 'Cachorro' fim ##########\n\n");
-		
+
 		System.out.println("#### Classe 'Gato' início ##########");
-		
+
 		Gato gato = new Gato("ruivo", 1.2, "Sem Raça Definida", 0.8, "nervoso", "ruivo");
-		
+
 		System.out.println("Gato - altura: " + gato.getAltura());
 		System.out.println("Gato - cor do pelo: " + gato.getCorPelo());
 		System.out.println("Gato - cor do rabo: " + gato.getCorRabo());
@@ -62,10 +53,13 @@ public class Main {
 		System.out.println("Gato - peso: " + gato.getPeso());
 		System.out.println("Gato - raca: " + gato.getRaca());
 		System.out.println("Gato - temperamento: " + gato.getTemperamento());
-		
+
 		gato.miar();
 		gato.ronronar();
-		
+
+		gato.caminhar();
+		gato.correr();
+
 		System.out.println("#### Classe 'Gato' fim ##########");
 
 	}
