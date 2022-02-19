@@ -19,11 +19,11 @@ Você nasceu em 29 de Outubro de 1973.
 
 2. Crie uma classe que modele uma pessoa:
 a. Atributos: nome, idade, peso e altura
-b. Métodos: Envelhecer, engordar, emagrecer, crescer. 
- * 
- * 
- * 
- * 
- * 
- * 
+b. Métodos: Envelhecer, engordar, emagrecer, crescer.
+ *
+ *
+ *
+ *
+ *
+ *
  * */

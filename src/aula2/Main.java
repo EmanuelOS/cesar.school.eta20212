@@ -3,7 +3,7 @@ package aula2;
 import java.util.Scanner;
 
 public class Main {
-	
+
 	/*
 	 * CESAR School
 	 * Curso: Especialização em Testes Ágeis
@@ -12,7 +12,7 @@ public class Main {
 	 * Email: elos@cesar.school
 	 * Data: 05/Feb/2022
 	 * Atividade: 01
-	 * 
+	 *
 	 * */
 
 	private static Scanner scanner;

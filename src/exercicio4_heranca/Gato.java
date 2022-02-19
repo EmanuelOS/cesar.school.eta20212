@@ -1,6 +1,6 @@
 package exercicio4_heranca;
 
-public class Gato extends Animal {
+public class Gato extends Animal implements Mamifero {
 
 	// Atributos
 	private String temperamento;
@@ -40,12 +40,27 @@ public class Gato extends Animal {
 		System.out.println("Ron, ron...");
 	}
 
+	@Override
 	public void caminhar() {
 		System.out.println("Gato caminhando...!");
 	}
 
+	@Override
 	public void correr() {
 		System.out.println("Gato correndo...!");
+	}
+
+	// Métodas da interface Mamífero
+	@Override
+	public boolean temPelo() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public boolean respiraoPulmonar() {
+		// TODO Auto-generated method stub
+		return true;
 	}
 
 }
